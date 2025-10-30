@@ -1,0 +1,37 @@
+{
+  "name": "trading-master-frontend",
+  "description": "trading master frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "serve -s dist",
+    "dev": "vite --host",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0",
+    "@mui/icons-material": "7.0.0",
+    "@mui/material": "7.0.0",
+    "axios": "^1.12.2",
+    "moment": "^2.30.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-router-dom": "^7.9.2",
+    "rsuite": "^5.83.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/react": "19.0.11",
+    "@types/react-dom": "19.0.4",
+    "@vitejs/plugin-react": "4.3.4",
+    "prettier": "^3.6.2",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "serve": "^14.2.5",
+    "typescript": "5.8.2",
+    "vite": "6.2.2"
+  }
+}
