@@ -64,7 +64,7 @@ const DiscordSection = () => {
             '&:hover': { bgcolor: '#1565c0' }
           }}
         >
-          get started
+          start
         </Button>
 
         <Grid container spacing={6} alignItems='center' sx={{ mt: 8 }}>
