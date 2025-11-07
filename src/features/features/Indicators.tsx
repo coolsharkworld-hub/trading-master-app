@@ -55,7 +55,7 @@ const IndicatorsSection = () => {
               fontSize: { xs: 24, md: 40 }
             }}
           >
-            tradingview indicators
+            indicators
           </Typography>
           <Typography
             variant='h6'
